@@ -31,3 +31,45 @@ body {
     text-wrap: balance;
   }
 }
+
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.title {
+  font-size: 4rem;
+  animation: fadeInOut 1s linear infinite alternate;
+}
+
+.animation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 4rem;
+  text-align: center;
+  cursor: pointer; /* Indicate interactivity on hover */
+}
+
+button {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
